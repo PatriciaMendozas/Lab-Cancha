@@ -1,25 +1,55 @@
 div{
-	background: green;
-	border: white;
+	border: 1px solid white;
 }
-.Interno{
-	width: 820px;
-	height: 400px;
-	margin: 5px;
-}
-.Arcoderecha{
-	top:50 px;
-	left:0px;
-position: left
-}
-.Arcoizquierda{
+.externo{
+	padding: 5px;
+	display: inline-block;
+	background: #088A4B;
+	}
+.interno{
+	width: 600px;
+	height: 300px;
 	position: relative;
-top:50 px;
-left: 400px
-}
-.Circulo{
-	position: relative;
-	top:50px;
-	left: 200px;
+	}
 
+.arco{
+	width: 70px;
+	height: 110px;
+	position: relative;s
 }
+.arco:first-child{
+	top:95px;
+	border-left-style: none;
+}
+.arco:nth-child(2){
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	left: 220px;
+	bottom: 14px;
+	position: relative;
+	}
+.arco:nth-child(3){
+	left: 528px;
+	border-right-style: none;
+	position: relative;	
+	bottom:120px;
+}
+img {
+	position: relative;
+	}
+
+img:first-child{
+	left: 56px;
+}
+.arco:nth-child(2) img{
+	left: 60px;
+	bottom: 70px;
+}
+.arco:nth-child(3) img{
+	left: -28px;
+	top: 80px;
+}
+
+
