@@ -1,0 +1,25 @@
+div{
+	background: green;
+	border: white;
+}
+.Interno{
+	width: 820px;
+	height: 400px;
+	margin: 5px;
+}
+.Arcoderecha{
+	top:50 px;
+	left:0px;
+position: left
+}
+.Arcoizquierda{
+	position: relative;
+top:50 px;
+left: 400px
+}
+.Circulo{
+	position: relative;
+	top:50px;
+	left: 200px;
+
+}
